@@ -1,0 +1,41 @@
+{
+  "name": "app-react-pomodoro",
+  "version": "1.0.0",
+  "description": "Pomodoro App built with react & parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html --public-url /",
+    "build": "parcel build src/index.js  --dist-dir --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mika215/app-react-pomodoro.git"
+  },
+  "author": "Michael Tesfay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mika215/app-react-pomodoro/issues"
+  },
+  "homepage": "https://github.com/Mika215/app-react-pomodoro#readme",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-circular-progressbar": "^2.0.4",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
